@@ -1,0 +1,218 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end CSS reset                                          */
+
+/* start of my code                                       */
+
+header {
+	margin: 30px 40px 30px 40px;
+	font-family:  'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 12px;
+	min-width: 960px;
+}
+
+li {
+	display: inline;
+	list-style-type: none;
+	margin: 0px 8px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a.nav:hover {
+	color: #6699cc;
+}
+
+a#signin:hover {
+	color: #336699;
+}
+
+#nav1 {
+	float: left;
+	color: #999999;
+}
+
+#spacer {
+	min-width: 400px;
+}
+
+#nav2 {
+	float: right;
+	color: #336699;
+}
+
+#signin {
+	color: #18AFE0;
+}
+
+#container {	
+	color: #232323;
+	margin-right: auto;
+	margin-left: auto;
+	width: 850px;
+	padding: 50px;
+	text-align: center;
+}
+
+#logo {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 25px;
+
+}
+
+#productdescription {
+	height:150px;
+}
+
+#allproducts {
+	padding: 0px 25px 25px 25px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h1 {
+	font-size: 52px;
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: 25px;
+	font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
+}
+
+h2 {
+	font-size: 20px;
+	text-align: center;
+	font-weight: 500;
+	font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
+}
+
+.product {
+	background: linear-gradient(to bottom, white, #EFEFEF );
+	display: inline-block;
+	width: 180px;
+	height: 240px;
+	margin: 25px 18px;
+	border: 1px solid #E8E8E8;
+	border-radius: 5px;
+	font-family:  'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	box-shadow: 5px 5px 5px #F8F8F8;
+	position: relative;
+}
+
+.product:hover {
+	background-image: "arrow-left.png";
+	display: absolute;
+}
+
+.product img {
+	display: block;
+	margin: 12px;
+	width: 105px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+a:hover .arrow {
+	position: absolute;
+	height: 69px;
+	width: 69px;
+	top: -35px;
+	right: -30px;
+	background-image: url("arrow-left.png");
+}
+
+a:hover .arrow.right {
+	left: -30px;
+	background-image: url("arrow-right.png");
+}
+
+h5 {
+	color: #337099;
+	text-decoration: underline;
+	font-size: 21px;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 12px;
+}
+
+h6 {
+	color: #CC0000;
+	padding-bottom: 10px;
+	padding-top: 5px;
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+}
+
+p {
+	font-size: 14px;
+	padding-top: 10px;
+}
+
+h3 {
+	display: none;
+	font-size: 42px;
+	text-align: center;
+	padding-bottom: 25px;
+	font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;}
+
+h4 {
+	display: none;
+	font-family:  'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 15px;
+}
+
+em {
+	color: #337099;
+	text-decoration: underline;
+}
